@@ -9,84 +9,160 @@
 </head>
 <body>
     <nav>
-        <div>Vishal Appaya Saravanan</div>
-        <div><a href="contact.html">Contact Vishal</a></div>
+        <div class="nav-left">Vishal Appaya Saravanan</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="contact.html">Contact</a>
+        </div>
     </nav>
 
-    <section class="splash">
-        <h1>Vishal Appaya Saravanan</h1>
-        <img src="images/Vishal.png" alt="A headshot of Vishal Appaya Saravanan" style="width:200px;height:auto;">
-        <p class="address">6085 Weddington Dr. Cumming GA 30040 &#8226; 4044519522 &#8226; Vishalappaya@gmail.com</p>
-        <p class="tagline">I am proficient in Java, Python, Unix, C programming, JavaScript, CSS, CCNA, AWS, Microsoft Azure, Microsoft Word, and Microsoft Excel. Hardworking College Student seeking employment. I have a certification as an AWS Cloud Practitioner and am working to get certified for CompTIA Security Plus certification. Bringing forth a motivated attitude and a variety of powerful skills. Adept in various coding languages and cloud skills. Committed to utilizing my skills to further the mission of the company.</p>
-    </section>
-
-    <hr>
-
-    <section>
-        <h2>Education</h2>
-        <p class="education">University of Georgia – Bachelor of Science in Computer Science (In Progress)</p>
-        <p class="education">Expected Graduation: [Year] | GPA: 3.4</p>
-        <p class="education">Relevant Courses: Software Development I & II, Computer Ethics, Data Structures, Computer Graphics</p>
-        <p class="education">Alliance Academy of Innovation – High School Diploma</p>
-        <p class="education">Graduated: May 2022 | GPA: 4.0</p>
-        <p class="education">Relevant Courses: AP Computer Science A, AP Computer Science Principles</p>
-    </section>
-
-    <section>
-        <h2>Honors and Awards</h2>
-        <dl>
-            <dt>Deans List</dt>
-            <dd>Fall Semester 2022</dd>
-            <dt>Cyber Patriot Gold Semifinals and Platinum State Level</dt>
-            <dd>Team Leader, 2018: Led team to the Gold Tier Semifinals</dd>
-            <dd>Team Leader, 2019: Advanced team to the Platinum Tier State Level</dd>
-        </dl>
-    </section>
-
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Languages: Java, Python, C, JavaScript</li>
-            <li>Frameworks: JavaFX, Three.js</li>
-            <li>Applications: Microsoft Word, Excel, Azure</li>
-            <li>Certifications: AWS Certified Cloud Practitioner, CompTIA Security+ (In Progress)</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Leadership and Experience</h2>
-        <dl>
-            <dt>Volunteer | Yes Class</dt>
-            <dd>Jan 2019-Jan 2020: Worked with kids teaching them Microsoft Applications. Graded and returned tests to students.</dd>
-        </dl>
-    </section>
-
-    <section>
-        <h2>Projects</h2>
-        <div class="three-col">
-            <div class="card">
-                <img src="images/project1.png" alt="Recipe App" style="width:100%">
-                <div class="container">
-                    <h4><b>Recipe App</b></h4>
-                    <p>JavaFX17, API Integration</p>
+    <main class="page">
+        <section class="hero" id="about">
+            <div class="hero-text">
+                <div class="hero-eyebrow">New Grad Software Engineer · Computer Science</div>
+                <h1 class="hero-title">Vishal Appaya Saravanan</h1>
+                <p class="hero-subtitle">
+                    New College Graduate Software Engineer with experience building secure, scalable full-stack applications, strong foundations in data structures and algorithms, and growing expertise in AI and cloud.
+                </p>
+                <p class="hero-contact">
+                    404-451-9522 · <a href="mailto:Vishalappaya@gmail.com">Vishalappaya@gmail.com</a> ·
+                    <a href="https://www.linkedin.com/in/vishal-appaya-saravanan-2a470219b" target="_blank" rel="noreferrer">
+                        linkedin.com/in/vishal-appaya-saravanan-2a470219b
+                    </a>
+                </p>
+                <div class="hero-actions">
+                    <a class="btn-primary" href="contact.html">Contact Me</a>
+                    <a class="btn-secondary" href="https://www.linkedin.com/in/vishal-appaya-saravanan-2a470219b" target="_blank" rel="noreferrer">
+                        View LinkedIn
+                    </a>
                 </div>
             </div>
-            <div class="card">
-                <img src="images/project2.png" alt="3D Solar System" style="width:100%">
-                <div class="container">
-                    <h4><b>3D Solar System</b></h4>
-                    <p>JavaScript, GLSL Shaders</p>
+            <div class="hero-image">
+                <img src="images/Vishal.png" alt="A headshot of Vishal Appaya Saravanan">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Summary of Qualifications</h2>
+            </div>
+            <p class="hero-subtitle">
+                New College Graduate Software Engineer with strong programming skills in Python, Java, and JavaScript, and hands-on experience building secure, scalable full-stack applications. Experienced in Agile environments, unit testing, API integration, and cloud fundamentals, with a solid understanding of software engineering principles and system design. Currently pursuing an AI certification through Purdue University to strengthen skills in machine learning and generative AI. Motivated problem-solver eager to contribute to high-availability, performance-critical systems in the digital payments and financial technology domain.
+            </p>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+            </div>
+            <p class="education"><strong>University of Georgia</strong>, Athens, GA</p>
+            <p class="education">Bachelor of Science, Computer Science — Graduated Dec 12th 2025</p>
+            <p class="education"><strong>Alliance Academy of Innovation</strong>, Cumming, GA</p>
+            <p class="education">High School Diploma — Graduated May 2022</p>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Coursework</h2>
+                <p class="section-subtitle">Technical skills, AI tools, and core CS foundations</p>
+            </div>
+            <div class="two-col">
+                <div>
+                    <h3>Skills</h3>
+                    <ul>
+                        <li><strong>Languages</strong>: Python, Java, JavaScript, C, SQL</li>
+                        <li><strong>Frontend</strong>: React, Next.js, HTML, CSS</li>
+                        <li><strong>Backend &amp; Databases</strong>: REST APIs, PostgreSQL, Authentication Systems</li>
+                        <li><strong>Cloud &amp; Tools</strong>: AWS (Cloud Practitioner), Azure (exposure), Git, GitHub, Unix/Linux</li>
+                        <li><strong>Concepts</strong>: Data Structures, Algorithms, OOP, Unit Testing, Debugging, Agile</li>
+                        <li><strong>AI</strong>: GenAI tools (ChatGPT, GitHub Copilot), Prompt Engineering, ML Fundamentals, scikit-learn (basic)</li>
+                        <li><strong>Certifications</strong>: Comptia Security+, AWS Cloud Security Practitioner</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Relevant Coursework</h3>
+                    <div class="pill-list">
+                        <span class="pill">Software Development I &amp; II</span>
+                        <span class="pill">Data Structures</span>
+                        <span class="pill">Algorithms</span>
+                        <span class="pill">Computer Graphics</span>
+                        <span class="pill">Computer Ethics</span>
+                        <span class="pill">Computer Networks</span>
+                        <span class="pill">Theory of Computing</span>
+                        <span class="pill">Cybersecurity</span>
+                        <span class="pill">Software Engineering</span>
+                        <span class="pill">Computer Architecture</span>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="images/project3.png" alt="Cherry Blossom Lake with Koi Fish" style="width:100%">
-                <div class="container">
-                    <h4><b>Cherry Blossom Lake</b></h4>
-                    <p>Interactive 3D Environment</p>
-                </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="section-header">
+                <h2 class="section-title">Project Experience</h2>
             </div>
-        </div>
-    </section>    
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Recipe App — Software Development II</h3>
+                    <div class="card-meta">November 2023 – December 2023</div>
+                    <ul>
+                        <li>Built a desktop app integrating APIs for recipe search and nutritional data.</li>
+                        <li>Applied object-oriented design, modular programming, and input validation for error handling.</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Thetawaves — Full-Stack Spotify Web App</h3>
+                    <div class="card-meta">Next.js, HTML, CSS, Spotify Web API, Database/Auth · January 2025 – May 2025</div>
+                    <ul>
+                        <li>Developed a full-stack web app that streams Spotify tracks via the Web Playback SDK.</li>
+                        <li>Built responsive interfaces and implemented user authentication, database integration, and real-time updates.</li>
+                        <li>Practiced test-driven development for robust feature validation.</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>ACM Movie Theaters — Backend Developer</h3>
+                    <div class="card-meta">Next.js, HTML, Java, Spotify Web API, PostgreSQL (Neon) · Team of 5 · August 2025 – December 2025</div>
+                    <ul>
+                        <li>Designed and implemented a PostgreSQL database schema for seat reservations, ticket purchases, and secure payments.</li>
+                        <li>Collaborated in an Agile environment, integrating APIs and managing development sprints.</li>
+                        <li>Implemented backend logic and data modeling to ensure transactional integrity and scalability.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="experience">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Sourastra Association — Full Stack Intern</h3>
+                    <div class="card-meta">Atlanta, GA · May 2025 – Present</div>
+                    <ul>
+                        <li>Designed a full website UI in Figma, creating wireframes and high-fidelity mockups for stakeholder approval.</li>
+                        <li>Gathered requirements and iterated designs for accessibility and mobile responsiveness.</li>
+                        <li>Coding the website with modern front-end technologies for production deployment.</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Peppy Gold — Website Design Intern</h3>
+                    <div class="card-meta">Remote · August 2025 – Present</div>
+                    <ul>
+                        <li>Design and animate app interfaces in Figma, creating engaging motion graphics and interactive prototypes that bring apps to life.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; <a href="contact.html">Vishal Appaya Saravanan</a></p>
