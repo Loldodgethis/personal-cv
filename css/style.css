@@ -274,6 +274,156 @@ a:hover {
     margin: 0;
 }
 
+.card-cta {
+    margin: 12px 0 0;
+    font-size: 0.9rem;
+}
+
+.card-cta a {
+    color: #93c5fd;
+}
+
+/* SafeMail — AI Phishing Detector */
+.safemail-section .section-subtitle {
+    margin-bottom: 16px;
+}
+
+.safemail-card {
+    background: radial-gradient(circle at top left, rgba(55, 65, 81, 0.6), rgba(17, 24, 39, 0.95));
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.4);
+}
+
+.safemail-label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+.safemail-input {
+    width: 100%;
+    min-height: 140px;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(148, 163, 184, 0.4);
+    border-radius: 10px;
+    background: rgba(2, 6, 23, 0.8);
+    color: #e5e7eb;
+    font-family: inherit;
+    font-size: 0.95rem;
+    resize: vertical;
+}
+
+.safemail-input::placeholder {
+    color: #6b7280;
+}
+
+.safemail-input:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.25);
+}
+
+.safemail-btn {
+    margin-bottom: 20px;
+}
+
+.safemail-result {
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+.safemail-result[data-risk="phishing"] {
+    background: rgba(127, 29, 29, 0.35);
+    border-color: rgba(248, 113, 113, 0.4);
+}
+
+.safemail-result[data-risk="safe"] {
+    background: rgba(20, 83, 45, 0.25);
+    border-color: rgba(134, 239, 172, 0.3);
+}
+
+.safemail-result-badge {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+}
+
+.safemail-result[data-risk="phishing"] .safemail-result-badge {
+    color: #fca5a5;
+}
+
+.safemail-result[data-risk="safe"] .safemail-result-badge {
+    color: #86efac;
+}
+
+.safemail-confidence {
+    font-size: 0.9rem;
+    color: #9ca3af;
+    margin: 0 0 8px;
+}
+
+.safemail-explanation {
+    font-size: 0.9rem;
+    color: #d1d5db;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.safemail-info-toggle {
+    background: none;
+    border: none;
+    color: #93c5fd;
+    cursor: pointer;
+    padding: 0;
+    font-size: 0.9rem;
+    text-align: left;
+    width: auto;
+}
+
+.safemail-info-toggle:hover {
+    text-decoration: underline;
+    filter: none;
+}
+
+.safemail-info-content {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(148, 163, 184, 0.25);
+    font-size: 0.9rem;
+    color: #9ca3af;
+    line-height: 1.55;
+}
+
+.safemail-info-content p {
+    margin: 0;
+}
+
+.safemail-skills {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(148, 163, 184, 0.25);
+}
+
+.safemail-skills-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #9ca3af;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.safemail-skills .pill-list {
+    margin: 0;
+}
+
 /* Contact Form Styling */
 .one-col {
     display: flex;

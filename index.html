@@ -15,6 +15,7 @@
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#experience">Experience</a>
+            <a href="#safemail">SafeMail</a>
             <a href="contact.html">Contact</a>
         </div>
     </nav>
@@ -41,7 +42,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="images/Vishal.png" alt="A headshot of Vishal Appaya Saravanan">
+                <img src="images/ace407ff-6602-4d4b-a582-fbf4e95624cc.jpeg" alt="A headshot of Vishal Appaya Saravanan">
             </div>
         </section>
 
@@ -135,6 +136,17 @@
                         <li>Implemented backend logic and data modeling to ensure transactional integrity and scalability.</li>
                     </ul>
                 </article>
+
+                <article class="card">
+                    <h3>SafeMail — AI Phishing Email Detector</h3>
+                    <div class="card-meta">HTML, CSS, JavaScript · Portfolio project · 2025</div>
+                    <ul>
+                        <li>Built a client-side web tool that analyzes pasted email text and predicts phishing vs. safe with confidence score and explanation.</li>
+                        <li>Uses pattern-based classification (urgency language, credential requests, suspicious links) with no data sent to servers.</li>
+                        <li>Embedded in this portfolio so hiring managers can try it; demonstrates ML/security concepts and clean, accessible UI.</li>
+                    </ul>
+                    <p class="card-cta"><a href="#safemail">Try SafeMail on this site →</a></p>
+                </article>
             </div>
         </section>
 
@@ -162,6 +174,42 @@
                 </article>
             </div>
         </section>
+
+        <section class="section safemail-section" id="safemail">
+            <div class="section-header">
+                <h2 class="section-title">SafeMail — AI Phishing Email Detector</h2>
+                <p class="section-subtitle">Paste email text below for an instant prediction. No data is stored or sent to any server.</p>
+            </div>
+            <div class="safemail-card">
+                <label for="safemail-input" class="safemail-label">Email content</label>
+                <textarea id="safemail-input" class="safemail-input" rows="6" placeholder="Paste the email body or full message here..."></textarea>
+                <button type="button" class="btn-primary safemail-btn" id="safemail-check">Check Email</button>
+                <div id="safemail-result" class="safemail-result" aria-live="polite" hidden>
+                    <div class="safemail-result-badge" id="safemail-badge"></div>
+                    <p class="safemail-confidence" id="safemail-confidence"></p>
+                    <p class="safemail-explanation" id="safemail-explanation"></p>
+                </div>
+                <div class="safemail-info">
+                    <button type="button" class="safemail-info-toggle" id="safemail-info-toggle" aria-expanded="false">What is phishing? <span aria-hidden="true">▼</span></button>
+                    <div id="safemail-info-content" class="safemail-info-content" hidden>
+                        <p>Phishing is when attackers send emails (or messages) that look like they’re from a real company or person to trick you into clicking links, entering passwords, or sharing personal or financial information. This tool uses pattern-based analysis to flag common phishing signals—such as urgent language, suspicious links, or requests for credentials—and gives a risk score. It is for awareness only; always verify important requests through official channels.</p>
+                    </div>
+                </div>
+                <div class="safemail-skills">
+                    <h3 class="safemail-skills-title">Skills used</h3>
+                    <div class="pill-list">
+                        <span class="pill">HTML</span>
+                        <span class="pill">CSS</span>
+                        <span class="pill">JavaScript</span>
+                        <span class="pill">ML / text classification</span>
+                        <span class="pill">Pattern-based rules</span>
+                        <span class="pill">Cybersecurity (phishing taxonomy)</span>
+                        <span class="pill">Accessibility (ARIA)</span>
+                        <span class="pill">Client-side only</span>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -170,5 +218,6 @@
             <img src="images/linkedin.png" alt="LinkedIn Profile" style="width:32px;height:32px;">
         </a>
     </footer>
+    <script src="js/safemail.js"></script>
 </body>
 </html>

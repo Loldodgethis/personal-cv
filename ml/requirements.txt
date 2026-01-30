@@ -1,0 +1,3 @@
+# Optional: for training the phishing model with sklearn (better accuracy)
+numpy>=1.20
+scikit-learn>=1.0
